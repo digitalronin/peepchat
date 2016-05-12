@@ -6,4 +6,6 @@ open:
 server:
 	ember serve
 
+deploy:
+	git push
 
