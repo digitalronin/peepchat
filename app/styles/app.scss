@@ -1,6 +1,9 @@
 $roboto-font-path: '/assets/';
 
 @import "materialize";
+@import "components/color";
+
+$primary-color: color('deep-orange', 'darken-2');
 
 body {
   background-color: color('indigo', 'darken-1');
@@ -49,4 +52,9 @@ body {
       margin-top: 1.5rem;
     }
   }
+}
+
+.liquid-container {
+  transform: none;
+  -webkit-transform: none;
 }
